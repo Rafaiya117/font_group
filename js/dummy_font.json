@@ -1,0 +1,34 @@
+{
+    "fontGroups": [
+      {
+        "groupName": "Group 1",
+        "fonts": [
+          {
+            "fontName": "Arial",
+            "fontFile": "arial.ttf"
+          },
+          {
+            "fontName": "Calibri",
+            "fontFile": "calibri.ttf"
+          },
+          {
+            "fontName": "Times New Roman",
+            "fontFile": "times_new_roman.ttf"
+          }
+        ]
+      },
+      {
+        "groupName": "Group 2",
+        "fonts": [
+          {
+            "fontName": "Verdana",
+            "fontFile": "verdana.ttf"
+          },
+          {
+            "fontName": "Tahoma",
+            "fontFile": "tahoma.ttf"
+          }
+        ]
+      }
+    ]
+  }

@@ -1,0 +1,92 @@
+#font-upload-container {
+  margin-bottom: 20px;
+  margin-top: 20px;
+  padding-left: 500px;
+}
+
+#font-upload-form {
+  position: relative;
+  display: inline-block;
+  border: 2px dashed #ccc;
+  padding: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  overflow: hidden;
+  height: 200px;
+}
+
+#font-upload-form input[type="file"] {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.upload-icon {
+
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.upload-text {
+
+  display: inline-block;
+}
+
+#uploaded-fonts-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 5%;
+}
+
+#uploaded-fonts-table th, 
+#uploaded-fonts-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+#uploaded-fonts-table th {
+  background-color: #f2f2f2;
+}
+
+.font-preview {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.delete-button {
+  color: red;
+  cursor: pointer;
+}
+#groupname{
+  width: 50% !important;
+  margin-left: 6px !important;
+}
+#fontname{
+ margin-left: 5px;
+    /* padding-bottom: 8px; */
+    margin-bottom: 20px;
+}
+.font-group-form-container-button0{
+  background-color: green;
+    color: white;
+    border-color: transparent;
+    border-radius: 5px;
+    margin-left: 5px;
+    width: 12%;
+}
+.font-group-form-container-button1{
+  color: green;
+  border-color: green;
+  border-radius: 5px;
+  float: inline-end;
+  margin-right: 5px;
+  width: 12%;
+}
+#font-group-form-container{
+  margin-bottom: 70px;
+}
